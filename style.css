@@ -1,0 +1,199 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  height: 500px;
+  background-color: #3400ff;
+}
+
+nav {
+  float: right;
+  margin-right: 40px;
+  margin-top: 15px;
+  cursor: pointer;
+
+}
+
+.nav-item {
+  margin-right: 20px;
+  color: white;
+}
+
+.nav-item-active {
+  background-color: white;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  color: #5532df;
+
+}
+
+.logo {
+  margin: 20px;
+
+}
+
+.header-text {
+  color: #fff;
+  margin-left: 60px;
+  float: left;
+}
+
+.header-image {
+  float: right;
+
+}
+
+.companies {
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+.company-items {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  margin-left: 30px;
+
+
+}
+
+.api-heading {
+  font-weight: 800;
+  margin-left: 90px;
+  margin-top: 100px;
+  font-style: bold;
+
+}
+
+.cards {
+  margin-left: 90px;
+  margin-trim: 20px;
+  display: flex;
+  flex-direction: row;
+
+
+}
+
+.card {
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+
+
+}
+
+.card-active {
+  width: 20%;
+  height: 250px;
+  background-color: transparent;
+  margin-right: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 0px 15px rgb(226, 217, 217);
+  padding: 10px;
+  border-radius: 15px;
+  
+}
+
+.card-logo {
+  margin-left: 30px;
+  margin-top: 30px;
+
+}
+
+.card-head {
+  color: black;
+  margin-top: 30px;
+  margin-left: 30px;
+
+}
+
+.card-head-active {
+  color: black;
+  margin-top: 30px;
+  margin-left: 30px;
+   
+}
+
+.card-body {
+  color: black;
+  font-size: 15px;
+  margin-left: 30px;
+
+}
+
+.blog-heading {
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+
+}
+
+.blog-cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+  width: 40%;
+}
+
+.blog-content {
+ 
+  margin: 30px 30px 0px 30px;
+}
+
+.blog-box {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 50px rgb(209, 195, 195);
+  
+
+}
+
+.author-button {
+  margin-left: 30px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.blog-author {
+  margin-top: 5px;
+}
+
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  margin-left: 90px;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+
+.faq-content {
+  width: 45%;
+
+}
+
+.faq-image {
+  width: 45%;
+  
+  justify-content:right ;
+}
