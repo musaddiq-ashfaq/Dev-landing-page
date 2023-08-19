@@ -46,6 +46,7 @@ nav {
   color: #fff;
   margin-left: 60px;
   float: left;
+  font-size: 25px;
 }
 
 .header-image {
@@ -211,45 +212,59 @@ h6 {
   cursor: pointer;
   color: rgb(27, 27, 244);
 } 
+
+
+
+
 .faq-section {
   display: flex;
   flex-direction: row;
-  margin-left: 90px;
-  margin-top: 30px;
-  
-  height: 250px;
+  margin-top: 60px;
+  background-color: #e9edff;
+  height: 300px;
 }
 
 .faq-content {
   width: 45%;
+  margin-left: 90px;
+  
   
 
 }
 
 .faq-section h4 {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  
 }
 
 
+.faq-section h2 {
+  margin-top: 30px;
+  font-size: 32px;
+}
 
 
 .faq-image {
   width: 45%;
-  
-   ;
+  height: 300px;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+
 
 }
 
 
-button {
-  padding: 2px;
-  background-color: blue;
+.button-faq-section {
+  padding: 2px 5px;
+  background-color: blueviolet;
   color: white;
+  font-size: 15px;
   border-radius: 5px;
-  border-color: #3400ff;
+  border: none;
   cursor: pointer;
   margin: 5px 0px;
+  text-decoration: none;
 }
 
 
@@ -264,14 +279,48 @@ button {
 
 .download-section {
   margin-left: 90px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 
 
 }
 
 
+.download-email {
+  margin-right: 90px;
+  
+  
 
+
+}
+
+.button-email {
+  background-color:blueviolet;
+  padding: 3px 15px ;
+  color: #ffffff;
+  font-size: 20px;
+  border:none;
+  border-radius: 0px 20px 20px 0px;
+  
+  position: absolute;
+  right: 90px;
+}
+
+
+.form-download-email {
+  background-color: #e9edff;
+  padding: 3px 15px ;
+  font-size: 20px;
+  border-radius: 20px 0px 0px 20px;
+  color: black;
+  border:none;
+  position: absolute;
+  right: 221px;
+
+}
 
 
 
@@ -280,8 +329,45 @@ button {
 
 
 .footer-section {
-  margin-left: 90px;
+  
+  background-color: #3400ff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
 }
 
+.footer-left {
+  margin-left: 90px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 40%;
+
+}
+
+.list {
+  list-style-type: "\ | ";
+  display: flex;
+  flex-direction: row;
+  
+  
+}
+
+
+.footer-right {
+  margin-right: 90px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  
+}
+
+.logos-list {
+  
+  list-style-type: "\ | ";
+  display: flex;
+  flex-direction: row;
+  
+}
 
 
