@@ -347,13 +347,16 @@ h6 {
 }
 
 .list {
-  list-style-type: "\ | ";
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   
   
 }
 
+.list-items{
+  padding: 20px;
+}
 
 .footer-right {
   margin-right: 90px;
@@ -364,10 +367,14 @@ h6 {
 
 .logos-list {
   
-  list-style-type: "\ | ";
+  list-style-type: none;
   display: flex;
   flex-direction: row;
   
 }
 
-
+.list-items:hover{
+  transition-duration: 0.3s;
+  color: #ffffff;
+  
+}
